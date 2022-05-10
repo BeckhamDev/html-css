@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de fontes</title>
+ <!--Baixar fontes no google fonts é dahora
+É só importar no css que já roda bacana-->
+ 
+    <style>
+        /*Importando font externa */
+        @font-face {
+            font-family: "nome que eu vou usar" ;
+            src: url('link da fonte.otf') format('opentype');
+            /* 
+            .otf = opentype
+            .ttf = truetype
+             */ 
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+           
+        }
+        h1{
+            /*font-style > font-weight > font-size> font-family*/
+            font: italic bolder 2em arial, sans-serif ;
+            text-align: center;
+            
+        }
+        h2{
+            font: bold 1em arial, sans-serif;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            text-indent: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi natus assumenda optio iusto. Similique quae perferendis quibusdam adipisci quisquam itaque dolore necessitatibus qui quas, corrupti error nulla expedita architecto. Alias!</p>
+    <h2>Mais um teste</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur voluptates reprehenderit vel doloribus nostrum totam nobis molestias illo, ipsam exercitationem consectetur, cum incidunt vero ea at? Vero, animi labore!</p>
+</body>
+</html>

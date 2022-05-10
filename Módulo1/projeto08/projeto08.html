@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive image</title>
+</head>
+<body>
+    <h1>Fotinhas que se adaptam ao tamanho da tela</h1>
+    <h2>Admire essa belissma natureza</h2>
+    <picture>
+       <source media="(max-width: 850px )" srcset="img/smal.jpg" type="image/jpg">
+        <source media="(max-width: 1150px)" srcset="img/medium.jpg" type="image/jpg">
+        <img src="img/big.jpg" alt="flexible">
+    </picture>
+
+    <h1>agora botando musiquinhas</h1>
+   
+   <!--Os nomezinhos depois de metadata servem pra configurar como vai ser o audio, lembra de pesquisar mais sobre quando for usar-->
+    <audio preload="metadata" controls autoplay loop>
+        <source src="nomedamusica.mp3" type="audio/mpeg">
+        <source src="nomedamusica.ogg" type="audio/ogg">
+        <source src="nomedamusica.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

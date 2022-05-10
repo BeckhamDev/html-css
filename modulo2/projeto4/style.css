@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+div{
+   background-color: rgba(199, 130, 142, 0.781);
+   height: 200px;
+   width: 200px;
+   display: inline-block;
+   text-align: center;
+   color: blue;
+   border: 3px solid black;
+   font-family: 'Times New Roman', Times, serif;
+}
+div:hover{
+    background-color: blueviolet;
+    color: white;
+}
+    div>ol{
+        display: none;
+    }
+    div:hover>ol{
+        display: block;
+        color: black;
+    }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+div:hover>a{
+    color: white;
+}
